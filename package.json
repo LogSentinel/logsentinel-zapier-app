@@ -1,0 +1,24 @@
+{
+  "name": "LogSentinel-app",
+  "version": "1.0.0",
+  "description": "An app that lets you send any events to LogSentinel's secure audit trail",
+  "repository": "logsentinel/logsentinel-zapier-app",
+  "homepage": "https://logsentinel.com/",
+  "author": "Bozhdiar Bozhanov <bozhidar.bozhanov@logsentinel.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive"
+  },
+  "engines": {
+    "node": "6.10.2",
+    "npm": ">=3.10.10"
+  },
+  "dependencies": {
+    "zapier-platform-core": "4.3.2"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "should": "11.2.1"
+  }
+}
